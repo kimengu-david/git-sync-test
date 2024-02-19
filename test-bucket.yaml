@@ -4,7 +4,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName:
-        Fn::Sub: test-bucket-adkpermtestg-${AWS::AccountId}
+        Fn::Sub: test-bucket-adkpermtestdddg-${AWS::AccountId}
 
   MyDynamoDBTable:
     Type: 'AWS::DynamoDB::Table'
